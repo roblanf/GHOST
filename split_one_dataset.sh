@@ -1,14 +1,28 @@
 
 # split alignment with Python3 and AMAS
 amas="/Users/roblanfear/Documents/github/GHOST/AMAS-master/amas/AMAS.py"
-input="/Users/roblanfear/Documents/github/GHOST/raw_data/Broughton_2013/alignment.nex"
-output="/Users/roblanfear/Documents/github/GHOST/processed_data/Broughton_2013/"
+raw="/Users/roblanfear/Documents/github/GHOST/raw_data"
+pro="/Users/roblanfear/Documents/github/GHOST/processed_data"
 
-mkdir $output
-cp -r $input $output
+folders=$(find $raw -type d -maxdepth 1 -mindepth 1 -type d)
 
-aln=$output"alignment.nex"
-spl=$output"partitions.txt"
+mkdir $pro
 
-# needs python 3.x
-python $amas split -f nexus -d dna -i $aln -l $aln -u nexus --remove-empty
+for f in $folders
+do
+	cp -r $f $pro
+
+	echo $f
+	d=$(basename $f)
+	output=$pro"/"$d
+
+	aln=$output"/alignment.nex"
+	spl=$output"/partitions.txt"
+
+	# needs python 3.x
+	python $amas split -f nexus -d dna -i $aln -l $spl -u nexus --remove-empty
+
+done
+
+
+
