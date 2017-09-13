@@ -12,7 +12,7 @@ import os
 for f in glob.glob('data/GHOST/processed_data/*/alignment_*.nex'):
     dataset = os.path.dirname(f)
     aln_name = os.path.basename(f)
-    aln_name = aln_name[10:-4]
+    aln_name = aln_name[10:-8]
     new_dir = os.path.join(dataset, aln_name)
     if not os.path.exists(new_dir):
         os.makedirs(new_dir)
