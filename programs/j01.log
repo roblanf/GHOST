@@ -1,0 +1,373 @@
+IQ-TREE multicore version 1.6.beta4 for Mac OS X 64-bit built Jun 21 2017
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    menura (AVX2, FMA3, 16 GB RAM)
+Command: /Users/roblanfear/Documents/github/GHOST/programs/iqtree_osx -s /Users/roblanfear/Documents/github/GHOST/iqtree_example/alignment_16S-out.nex -m JC+H2 -pre j01
+Seed:    839183 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep 13 16:39:37 2017
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/roblanfear/Documents/github/GHOST/iqtree_example/alignment_16S-out.nex ... Nexus format detected
+Alignment has 145 sequences with 1445 columns, 574 distinct patterns
+283 parsimony-informative, 238 singleton sites, 924 constant sites
+                                  Gap/Ambiguity  Composition  p-value
+   1  10CH                               62.01%    passed     96.25%
+   2  12CH                               61.80%    passed     96.55%
+   3  13CH                               61.87%    passed     97.08%
+   4  1CH                                61.66%    passed     95.22%
+   5  4CH                                62.15%    passed     87.86%
+   6  6CH                                62.56%    passed     97.00%
+   7  72_VN018                           62.15%    passed     97.69%
+   8  73_VN019                           62.15%    passed     97.61%
+   9  75_VN021                           62.21%    passed     98.25%
+  10  76_VN022                           62.15%    passed     97.25%
+  11  78_VN024                           62.15%    passed     97.69%
+  12  79_VN025                           62.42%    passed     98.78%
+  13  7CH                                62.21%    passed     96.40%
+  14  82_VN028                           61.52%    passed     93.58%
+  15  84_VN113                           62.28%    passed     98.61%
+  16  86_VN115                           62.77%    passed     91.23%
+  17  89_VN118                           62.56%    passed     99.30%
+  18  8CH                                62.15%    passed     93.44%
+  19  91_VN120                           62.42%    passed     98.56%
+  20  92_VN121                           62.28%    passed     98.08%
+  21  9CH                                64.43%    passed     89.57%
+  22  Afrololigo_mercatoris_FEA          61.94%    passed     82.89%
+  23  Alloteuthis_africana_312327        64.57%    passed     75.86%
+  24  Alloteuthis_africana_312328        63.81%    passed     75.64%
+  25  Alloteuthis_africana_312329        68.37%    passed     63.55%
+  26  Alloteuthis_africana_312330        65.74%    passed     90.57%
+  27  Alloteuthis_africana_312331        62.91%    passed     88.17%
+  28  Alloteuthis_africana_312333        63.88%    passed     74.61%
+  29  Alloteuthis_africana_312334        66.64%    passed     88.40%
+  30  Alloteuthis_africana_312335        65.74%    passed     90.51%
+  31  Alloteuthis_africana_312336        63.25%    passed     90.94%
+  32  Alloteuthis_media_312337           67.96%    passed     66.20%
+  33  Alloteuthis_media_312340           63.46%    passed     75.84%
+  34  Alloteuthis_media_312342           63.39%    passed     72.76%
+  35  Alloteuthis_media_312344           63.39%    passed     76.69%
+  36  Alloteuthis_media_312346           65.88%    passed     84.25%
+  37  Alloteuthis_media_312348           65.88%    passed     81.57%
+  38  Alloteuthis_media_312349           67.13%    passed     50.77%
+  39  Alloteuthis_media_312350           65.19%    passed     79.55%
+  40  Alloteuthis_media_312355           69.00%    passed     45.66%
+  41  Alloteuthis_media_312359           65.88%    passed     85.70%
+  42  Alloteuthis_media_312361           63.39%    passed     70.91%
+  43  Alloteuthis_subulata_312364        65.74%    passed     95.36%
+  44  Alloteuthis_subulata_312365        65.67%    passed     95.45%
+  45  Alloteuthis_subulata_312366        63.25%    passed     99.15%
+  46  Alloteuthis_subulata_FEA1          63.88%    passed     69.91%
+  47  BO6                                61.87%    passed     96.56%
+  48  BO7                                62.21%    passed     97.90%
+  49  DUM032                             60.76%    passed     84.74%
+  50  Doryteuthis_gahi_FEA1              61.80%    passed     74.77%
+  51  Doryteuthis_opalescens_2001_MB_1   10.87%    failed      2.73%
+  52  Doryteuthis_opalescens_FEAa        74.26%    passed     77.62%
+  53  Doryteuthis_pealeii_FEA1           68.86%    passed     99.75%
+  54  Doryteuthis_pleii_FEA1             68.65%    passed     94.63%
+  55  Loligo_bleekeri_CG                 12.04%    failed      1.80%
+  56  Loligo_forbesii_FEA                63.18%    passed     85.32%
+  57  Loligo_formosana_Lind              64.15%    passed     88.23%
+  58  Loligo_reynaudii_FEA               71.49%    passed     94.56%
+  59  Loligo_vulgaris_FEA                70.17%    passed     76.91%
+  60  Loliolus_beka_LB_1                 63.18%    passed     81.40%
+  61  Loliolus_beka_LB_10                63.18%    passed     76.02%
+  62  Loliolus_beka_LB_12                63.18%    passed     85.99%
+  63  Loliolus_beka_LB_2                 63.25%    passed     96.48%
+  64  Loliolus_beka_LB_3                 63.11%    passed     95.64%
+  65  Loliolus_beka_LB_4                 63.18%    passed     76.02%
+  66  Loliolus_japonica_FEA              71.21%    passed     75.21%
+  67  Loliolus_japonica_LJ_1             64.71%    passed     87.01%
+  68  Loliolus_sp__JMS_2004_Strug        63.53%    passed     93.01%
+  69  Loliolus_uyii_LU_1                 63.32%    passed     82.94%
+  70  Loliolus_uyii_LU_2                 63.32%    passed     82.94%
+  71  Lolliguncula_brevis_FEA            73.63%    passed     55.06%
+  72  Lolliguncula_diomedeae_Lind        62.70%    passed     95.76%
+  73  Photololigo_sp__JMS_2004           63.88%    passed     96.80%
+  74  RAJ040_01                          60.90%    passed     84.00%
+  75  RAJ040_02                          61.18%    passed     98.43%
+  76  RAJ040_03                          60.83%    passed     89.95%
+  77  RAJ040_04                          60.76%    passed     90.16%
+  78  RAJ040_05                          61.45%    passed     97.75%
+  79  RAJ040_06                          61.31%    passed     98.09%
+  80  RAJ040_08                          61.52%    passed     97.44%
+  81  RAJ040_09                          61.31%    passed     97.08%
+  82  RAJ040_11                          61.45%    passed     97.25%
+  83  RAJ040_12                          61.52%    passed     97.43%
+  84  RAJ040_13                          61.52%    passed     94.44%
+  85  RAJ040_19                          61.59%    passed     97.16%
+  86  SUM001_01                          61.38%    passed     97.72%
+  87  SUM001_03                          61.52%    passed     96.42%
+  88  SUM001_08                          61.31%    passed     98.30%
+  89  SUM001_13                          61.52%    passed     94.22%
+  90  SUM001_15                          61.38%    passed     96.38%
+  91  SUM001_16                          61.59%    passed     98.44%
+  92  SUM001_17                          61.31%    passed     97.23%
+  93  SUM001_20                          61.38%    passed     97.72%
+  94  Sepioteuthis_australis_FEAb        76.26%    passed     83.80%
+  95  Sepioteuthis_lessoniana_1          66.78%    passed     93.60%
+  96  Sepioteuthis_lessoniana_NC_007     12.94%    failed      4.85%
+  97  Sepioteuthis_lessoniana_SL_1       66.78%    passed     93.60%
+  98  Sepioteuthis_lessoniana_SL_2       65.26%    passed     86.54%
+  99  Sepioteuthis_lessoniana_SL_3       66.78%    passed     93.60%
+ 100  Sepioteuthis_lessoniana_ha13       66.99%    passed     78.63%
+ 101  Sepioteuthis_lessoniana_ha16       67.06%    passed     72.97%
+ 102  Sepioteuthis_lessoniana_ha17       67.06%    passed     64.95%
+ 103  Sepioteuthis_lessoniana_ha18       67.06%    passed     76.58%
+ 104  Sepioteuthis_lessoniana_ha19       67.06%    passed     69.60%
+ 105  Sepioteuthis_lessoniana_ha20       67.06%    passed     69.60%
+ 106  Sepioteuthis_lessoniana_ha21       66.99%    passed     71.86%
+ 107  Sepioteuthis_lessoniana_ha22       66.99%    passed     71.86%
+ 108  Sepioteuthis_lessoniana_ha23       66.99%    passed     78.26%
+ 109  Sepioteuthis_lessoniana_ha24       66.99%    passed     71.86%
+ 110  Sepioteuthis_lessoniana_ha25       66.99%    passed     71.86%
+ 111  Sepioteuthis_lessoniana_ha26       66.99%    passed     78.26%
+ 112  Sepioteuthis_lessoniana_ha27       66.99%    passed     71.86%
+ 113  Sepioteuthis_lessoniana_ha28       66.99%    passed     78.26%
+ 114  Sepioteuthis_lessoniana_ha29       66.99%    passed     71.86%
+ 115  Sepioteuthis_lessoniana_ha4        66.92%    passed     65.58%
+ 116  Sepioteuthis_lessoniana_ha5        66.92%    passed     73.98%
+ 117  Sepioteuthis_lessoniana_ha6        66.92%    passed     73.98%
+ 118  Sepioteuthis_lessoniana_ha7        66.92%    passed     69.77%
+ 119  Sepioteuthis_lessoniana_ha8        66.92%    passed     62.45%
+ 120  Sepioteuthis_sepioidea_FEA         69.13%    passed     50.99%
+ 121  Uroteuthis_chinensis_FEA           68.51%    passed     78.50%
+ 122  Uroteuthis_chinensis_HKA           65.26%    passed     83.59%
+ 123  Uroteuthis_chinensis_HKB           65.26%    passed     83.59%
+ 124  Uroteuthis_chinensis_UC_1          63.60%    passed     91.37%
+ 125  Uroteuthis_chinensis_Xia02         65.26%    passed     86.94%
+ 126  Uroteuthis_duvauceli_1M            64.78%    passed     91.18%
+ 127  Uroteuthis_duvauceli_CC6           64.91%    passed     89.45%
+ 128  Uroteuthis_duvauceli_FEAa          65.54%    passed     83.29%
+ 129  Uroteuthis_duvauceli_UD_1          62.98%    passed     93.39%
+ 130  Uroteuthis_duvauceli_UD_2          63.11%    passed     95.03%
+ 131  Uroteuthis_duvauceli_UD_4          63.11%    passed     96.62%
+ 132  Uroteuthis_duvauceli_UD_7          63.11%    passed     94.13%
+ 133  Uroteuthis_duvauceli_UD_8          63.11%    passed     92.64%
+ 134  Uroteuthis_eduiis_A_Pankey          9.76%    failed      0.18%
+ 135  Uroteuthis_eduiis_B_Pankey         17.02%    failed      0.07%
+ 136  Uroteuthis_eduiis_C_Pankey         12.25%    failed      0.68%
+ 137  Uroteuthis_edulis_D_Pankey          9.83%    failed      1.12%
+ 138  Uroteuthis_edulis_Jp01             64.84%    passed     91.38%
+ 139  Uroteuthis_edulis_NC_017746         6.99%    failed      0.21%
+ 140  Uroteuthis_edulis_budo_CG           6.99%    failed      0.21%
+ 141  Uroteuthis_edulis_kensaki_CG        9.83%    failed      0.37%
+ 142  Uroteuthis_etheridgei_FEA          67.54%    passed     84.03%
+ 143  Uroteuthis_noctiluca_FEA           73.22%    passed     48.07%
+ 144  Uroteuthis_noctiluca_Nish          63.46%    passed     26.14%
+ 145  Uroteuthis_sibogae_US_3            64.43%    passed     81.39%
+WARNING: 135 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                              60.86%  10 sequences failed composition chi2 test (p-value<5%; df=3)
+Initializing heterotachy mixture branch lengths
+NOTE: Loliolus_uyii_LU_2 is identical to Loliolus_uyii_LU_1 but kept for subsequent analysis
+NOTE: Sepioteuthis_lessoniana_SL_1 is identical to Sepioteuthis_lessoniana_1 but kept for subsequent analysis
+NOTE: Sepioteuthis_lessoniana_ha20 is identical to Sepioteuthis_lessoniana_ha19 but kept for subsequent analysis
+NOTE: Sepioteuthis_lessoniana_ha22 is identical to Sepioteuthis_lessoniana_ha21 but kept for subsequent analysis
+NOTE: Sepioteuthis_lessoniana_ha26 is identical to Sepioteuthis_lessoniana_ha23 but kept for subsequent analysis
+NOTE: Uroteuthis_chinensis_HKB is identical to Uroteuthis_chinensis_HKA but kept for subsequent analysis
+NOTE: Uroteuthis_edulis_budo_CG is identical to Uroteuthis_edulis_NC_017746 but kept for subsequent analysis
+NOTE: 5 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Sepioteuthis_lessoniana_SL_3 (identical to Sepioteuthis_lessoniana_1) is ignored but added at the end
+NOTE: Sepioteuthis_lessoniana_ha24 (identical to Sepioteuthis_lessoniana_ha21) is ignored but added at the end
+NOTE: Sepioteuthis_lessoniana_ha25 (identical to Sepioteuthis_lessoniana_ha21) is ignored but added at the end
+NOTE: Sepioteuthis_lessoniana_ha27 (identical to Sepioteuthis_lessoniana_ha21) is ignored but added at the end
+NOTE: Sepioteuthis_lessoniana_ha29 (identical to Sepioteuthis_lessoniana_ha21) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to j01.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.015 seconds
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial LogL: -8112.378, Site proportion and rates:  (0.671,0.134) (0.329,2.768)
+relative_treelen: 0.211 4.357
+1. Initial log-likelihood: -8112.378
+2. Current log-likelihood: -7456.471
+3. Current log-likelihood: -7453.312
+4. Current log-likelihood: -7453.168
+Optimal log-likelihood: -7453.150
+Rate parameters:  A-C: 1.000  A-G: 1.000  A-T: 1.000  C-G: 1.000  C-T: 1.000  G-T: 1.000
+Base frequencies:   A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Heterotachy weights:      0.698 0.302
+Heterotachy tree lengths: 0.407 6.867
+Parameters optimization took 4 rounds (0.164 sec)
+Computing ML distances based on estimated model parameters... 0.109 sec
+Computing BIONJ tree...
+0.044 seconds
+Log-likelihood of BIONJ tree: -7540.185
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.400 second
+Computing log-likelihood of 98 initial trees ... 4.200 seconds
+Current best score: -7446.749
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7438.716
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -7438.472
+Iteration 10 / LogL: -7440.919 / Time: 0h:0m:13s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 17: -7438.147
+Iteration 20 / LogL: -7441.440 / Time: 0h:0m:21s
+Optimizing model parameters for top 5 candidate trees... 
+Estimate model parameters (epsilon = 0.010)
+Tree 1 / LogL: -7438.145
+Estimate model parameters (epsilon = 0.010)
+Tree 2 / LogL: -7438.469
+Estimate model parameters (epsilon = 0.010)
+Tree 3 / LogL: -7438.707
+Estimate model parameters (epsilon = 0.010)
+Tree 4 / LogL: -7438.700
+Estimate model parameters (epsilon = 0.010)
+Tree 5 / LogL: -7438.720
+0.222 seconds
+Finish initializing candidate tree set (20)
+Current best tree score: -7438.145 / CPU time: 20.586
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 23: -7438.140
+Iteration 30 / LogL: -7438.144 / Time: 0h:0m:32s (0h:1m:44s left)
+Iteration 40 / LogL: -7438.141 / Time: 0h:0m:42s (0h:1m:31s left)
+BETTER TREE FOUND at iteration 45: -7438.137
+Iteration 50 / LogL: -7438.141 / Time: 0h:0m:53s (0h:1m:43s left)
+Iteration 60 / LogL: -7440.851 / Time: 0h:1m:5s (0h:1m:34s left)
+Iteration 70 / LogL: -7461.678 / Time: 0h:1m:16s (0h:1m:23s left)
+BETTER TREE FOUND at iteration 76: -7438.136
+Iteration 80 / LogL: -7448.960 / Time: 0h:1m:27s (0h:1m:46s left)
+Iteration 90 / LogL: -7482.127 / Time: 0h:1m:37s (0h:1m:34s left)
+Iteration 100 / LogL: -7446.198 / Time: 0h:1m:48s (0h:1m:23s left)
+BETTER TREE FOUND at iteration 105: -7438.134
+Iteration 110 / LogL: -7506.166 / Time: 0h:1m:59s (0h:1m:43s left)
+Iteration 120 / LogL: -7439.151 / Time: 0h:2m:11s (0h:1m:33s left)
+Iteration 130 / LogL: -7446.911 / Time: 0h:2m:22s (0h:1m:22s left)
+BETTER TREE FOUND at iteration 139: -7438.132
+Iteration 140 / LogL: -7438.150 / Time: 0h:2m:35s (0h:1m:50s left)
+BETTER TREE FOUND at iteration 150: -7438.129
+Iteration 150 / LogL: -7438.129 / Time: 0h:2m:45s (0h:1m:51s left)
+Iteration 160 / LogL: -7438.131 / Time: 0h:2m:57s (0h:1m:40s left)
+BETTER TREE FOUND at iteration 161: -7438.128
+Iteration 170 / LogL: -7438.131 / Time: 0h:3m:7s (0h:1m:40s left)
+BETTER TREE FOUND at iteration 171: -7438.126
+Iteration 180 / LogL: -7443.929 / Time: 0h:3m:18s (0h:1m:41s left)
+WARN: at EM step 1 new_tree_lh -7453.682 worse than tree_lh -7452.484
+Iteration 190 / LogL: -7439.870 / Time: 0h:3m:29s (0h:1m:29s left)
+BETTER TREE FOUND at iteration 195: -7438.125
+WARN: at EM step 1 new_tree_lh -8002.628 worse than tree_lh -8000.668
+Iteration 200 / LogL: -7438.128 / Time: 0h:3m:39s (0h:1m:44s left)
+Iteration 210 / LogL: -7448.644 / Time: 0h:3m:49s (0h:1m:33s left)
+BETTER TREE FOUND at iteration 217: -7438.123
+Iteration 220 / LogL: -7439.023 / Time: 0h:3m:58s (0h:1m:45s left)
+Iteration 230 / LogL: -7438.584 / Time: 0h:4m:10s (0h:1m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 234: -7437.626
+BETTER TREE FOUND at iteration 238: -7437.624
+Iteration 240 / LogL: -7446.164 / Time: 0h:4m:22s (0h:1m:47s left)
+BETTER TREE FOUND at iteration 244: -7437.622
+Iteration 250 / LogL: -7438.142 / Time: 0h:4m:33s (0h:1m:43s left)
+BETTER TREE FOUND at iteration 259: -7437.621
+Iteration 260 / LogL: -7437.650 / Time: 0h:4m:43s (0h:1m:48s left)
+Iteration 270 / LogL: -7437.687 / Time: 0h:4m:53s (0h:1m:37s left)
+BETTER TREE FOUND at iteration 273: -7437.620
+Iteration 280 / LogL: -7442.254 / Time: 0h:5m:2s (0h:1m:40s left)
+Iteration 290 / LogL: -7437.623 / Time: 0h:5m:11s (0h:1m:29s left)
+WARN: at EM step 1 new_tree_lh -7445.496 worse than tree_lh -7443.040
+WARN: at EM step 1 new_tree_lh -7445.318 worse than tree_lh -7443.030
+Iteration 300 / LogL: -7440.914 / Time: 0h:5m:22s (0h:1m:18s left)
+BETTER TREE FOUND at iteration 309: -7437.617
+Iteration 310 / LogL: -7437.622 / Time: 0h:5m:32s (0h:1m:46s left)
+Iteration 320 / LogL: -7440.621 / Time: 0h:5m:42s (0h:1m:35s left)
+WARN: at EM step 1 new_tree_lh -7444.325 worse than tree_lh -7443.045
+WARN: at EM step 1 new_tree_lh -7444.278 worse than tree_lh -7443.036
+Iteration 330 / LogL: -7445.750 / Time: 0h:5m:52s (0h:1m:24s left)
+BETTER TREE FOUND at iteration 331: -7437.616
+Iteration 340 / LogL: -7439.944 / Time: 0h:6m:3s (0h:1m:37s left)
+BETTER TREE FOUND at iteration 346: -7437.614
+Iteration 350 / LogL: -7439.572 / Time: 0h:6m:13s (0h:1m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 352: -7437.223
+Iteration 360 / LogL: -7437.661 / Time: 0h:6m:24s (0h:1m:38s left)
+Iteration 370 / LogL: -7464.163 / Time: 0h:6m:34s (0h:1m:27s left)
+Iteration 380 / LogL: -7437.709 / Time: 0h:6m:45s (0h:1m:16s left)
+Iteration 390 / LogL: -7437.707 / Time: 0h:6m:54s (0h:1m:6s left)
+Iteration 400 / LogL: -7445.502 / Time: 0h:7m:5s (0h:0m:55s left)
+BETTER TREE FOUND at iteration 408: -7437.215
+Iteration 410 / LogL: -7438.369 / Time: 0h:7m:16s (0h:1m:44s left)
+Iteration 420 / LogL: -7450.756 / Time: 0h:7m:26s (0h:1m:33s left)
+Iteration 430 / LogL: -7464.549 / Time: 0h:7m:36s (0h:1m:22s left)
+BETTER TREE FOUND at iteration 431: -7437.213
+Iteration 440 / LogL: -7437.214 / Time: 0h:7m:46s (0h:1m:36s left)
+BETTER TREE FOUND at iteration 444: -7437.213
+Iteration 450 / LogL: -7439.107 / Time: 0h:7m:57s (0h:1m:40s left)
+Iteration 460 / LogL: -7437.228 / Time: 0h:8m:8s (0h:1m:29s left)
+BETTER TREE FOUND at iteration 468: -7437.213
+Iteration 470 / LogL: -7438.140 / Time: 0h:8m:18s (0h:1m:44s left)
+WARN: at EM step 1 new_tree_lh -7612.171 worse than tree_lh -7611.097
+Iteration 480 / LogL: -7438.243 / Time: 0h:8m:28s (0h:1m:33s left)
+Iteration 490 / LogL: -7437.215 / Time: 0h:8m:38s (0h:1m:22s left)
+Iteration 500 / LogL: -7438.760 / Time: 0h:8m:49s (0h:1m:12s left)
+BETTER TREE FOUND at iteration 508: -7437.212
+Iteration 510 / LogL: -7451.186 / Time: 0h:8m:59s (0h:1m:43s left)
+Iteration 520 / LogL: -7485.086 / Time: 0h:9m:8s (0h:1m:32s left)
+Iteration 530 / LogL: -7437.626 / Time: 0h:9m:17s (0h:1m:22s left)
+Iteration 540 / LogL: -7464.478 / Time: 0h:9m:28s (0h:1m:11s left)
+BETTER TREE FOUND at iteration 548: -7437.211
+Iteration 550 / LogL: -7437.217 / Time: 0h:9m:38s (0h:1m:43s left)
+WARN: at EM step 1 new_tree_lh -8518.919 worse than tree_lh -8517.681
+Iteration 560 / LogL: -7441.811 / Time: 0h:9m:47s (0h:1m:32s left)
+Iteration 570 / LogL: -7442.589 / Time: 0h:9m:59s (0h:1m:22s left)
+Iteration 580 / LogL: -7439.928 / Time: 0h:10m:10s (0h:1m:11s left)
+Iteration 590 / LogL: -7448.978 / Time: 0h:10m:21s (0h:1m:1s left)
+WARN: at EM step 1 new_tree_lh -7476.938 worse than tree_lh -7475.009
+Iteration 600 / LogL: -7467.928 / Time: 0h:10m:31s (0h:0m:50s left)
+Iteration 610 / LogL: -7444.371 / Time: 0h:10m:41s (0h:0m:40s left)
+BETTER TREE FOUND at iteration 613: -7437.211
+Iteration 620 / LogL: -7481.350 / Time: 0h:10m:51s (0h:1m:37s left)
+WARN: at EM step 1 new_tree_lh -7591.092 worse than tree_lh -7589.068
+Iteration 630 / LogL: -7437.213 / Time: 0h:11m:1s (0h:1m:27s left)
+Iteration 640 / LogL: -7442.989 / Time: 0h:11m:11s (0h:1m:16s left)
+Iteration 650 / LogL: -7495.838 / Time: 0h:11m:22s (0h:1m:6s left)
+Iteration 660 / LogL: -7437.311 / Time: 0h:11m:31s (0h:0m:55s left)
+WARN: at EM step 1 new_tree_lh -7550.453 worse than tree_lh -7549.400
+Iteration 670 / LogL: -7438.137 / Time: 0h:11m:41s (0h:0m:45s left)
+Iteration 680 / LogL: -7437.212 / Time: 0h:11m:52s (0h:0m:34s left)
+Iteration 690 / LogL: -7448.304 / Time: 0h:12m:0s (0h:0m:24s left)
+Iteration 700 / LogL: -7448.897 / Time: 0h:12m:10s (0h:0m:13s left)
+Iteration 710 / LogL: -7444.357 / Time: 0h:12m:21s (0h:0m:3s left)
+TREE SEARCH COMPLETED AFTER 714 ITERATIONS / Time: 0h:12m:24s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7437.211
+Optimal log-likelihood: -7437.210
+Rate parameters:  A-C: 1.000  A-G: 1.000  A-T: 1.000  C-G: 1.000  C-T: 1.000  G-T: 1.000
+Base frequencies:   A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Heterotachy weights:      0.709 0.291
+Heterotachy tree lengths: 0.425 7.043
+Parameters optimization took 1 rounds (0.029 sec)
+BEST SCORE FOUND : -7437.210
+Total tree length: 2.353
+
+Total number of iterations: 714
+CPU time used for tree search: 737.774 sec (0h:12m:17s)
+Wall-clock time used for tree search: 744.134 sec (0h:12m:24s)
+Total CPU time used: 738.456 sec (0h:12m:18s)
+Total wall-clock time used: 744.889 sec (0h:12m:24s)
+
+Analysis results written to: 
+  IQ-TREE report:                j01.iqtree
+  Maximum-likelihood tree:       j01.treefile
+  Likelihood distances:          j01.mldist
+  Screen log file:               j01.log
+
+Date and Time: Wed Sep 13 16:52:02 2017

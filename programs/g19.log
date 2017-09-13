@@ -1,0 +1,221 @@
+IQ-TREE multicore version 1.6.beta4 for Mac OS X 64-bit built Jun 21 2017
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    menura (AVX2, FMA3, 16 GB RAM)
+Command: /Users/roblanfear/Documents/github/GHOST/programs/iqtree_osx -s /Users/roblanfear/Documents/github/GHOST/iqtree_example/alignment_16S-out.nex -m GTR+FO*H2 -pre g19
+Seed:    837618 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep 13 16:31:19 2017
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/roblanfear/Documents/github/GHOST/iqtree_example/alignment_16S-out.nex ... Nexus format detected
+Alignment has 145 sequences with 1445 columns, 574 distinct patterns
+283 parsimony-informative, 238 singleton sites, 924 constant sites
+                                  Gap/Ambiguity  Composition  p-value
+   1  10CH                               62.01%    passed     96.25%
+   2  12CH                               61.80%    passed     96.55%
+   3  13CH                               61.87%    passed     97.08%
+   4  1CH                                61.66%    passed     95.22%
+   5  4CH                                62.15%    passed     87.86%
+   6  6CH                                62.56%    passed     97.00%
+   7  72_VN018                           62.15%    passed     97.69%
+   8  73_VN019                           62.15%    passed     97.61%
+   9  75_VN021                           62.21%    passed     98.25%
+  10  76_VN022                           62.15%    passed     97.25%
+  11  78_VN024                           62.15%    passed     97.69%
+  12  79_VN025                           62.42%    passed     98.78%
+  13  7CH                                62.21%    passed     96.40%
+  14  82_VN028                           61.52%    passed     93.58%
+  15  84_VN113                           62.28%    passed     98.61%
+  16  86_VN115                           62.77%    passed     91.23%
+  17  89_VN118                           62.56%    passed     99.30%
+  18  8CH                                62.15%    passed     93.44%
+  19  91_VN120                           62.42%    passed     98.56%
+  20  92_VN121                           62.28%    passed     98.08%
+  21  9CH                                64.43%    passed     89.57%
+  22  Afrololigo_mercatoris_FEA          61.94%    passed     82.89%
+  23  Alloteuthis_africana_312327        64.57%    passed     75.86%
+  24  Alloteuthis_africana_312328        63.81%    passed     75.64%
+  25  Alloteuthis_africana_312329        68.37%    passed     63.55%
+  26  Alloteuthis_africana_312330        65.74%    passed     90.57%
+  27  Alloteuthis_africana_312331        62.91%    passed     88.17%
+  28  Alloteuthis_africana_312333        63.88%    passed     74.61%
+  29  Alloteuthis_africana_312334        66.64%    passed     88.40%
+  30  Alloteuthis_africana_312335        65.74%    passed     90.51%
+  31  Alloteuthis_africana_312336        63.25%    passed     90.94%
+  32  Alloteuthis_media_312337           67.96%    passed     66.20%
+  33  Alloteuthis_media_312340           63.46%    passed     75.84%
+  34  Alloteuthis_media_312342           63.39%    passed     72.76%
+  35  Alloteuthis_media_312344           63.39%    passed     76.69%
+  36  Alloteuthis_media_312346           65.88%    passed     84.25%
+  37  Alloteuthis_media_312348           65.88%    passed     81.57%
+  38  Alloteuthis_media_312349           67.13%    passed     50.77%
+  39  Alloteuthis_media_312350           65.19%    passed     79.55%
+  40  Alloteuthis_media_312355           69.00%    passed     45.66%
+  41  Alloteuthis_media_312359           65.88%    passed     85.70%
+  42  Alloteuthis_media_312361           63.39%    passed     70.91%
+  43  Alloteuthis_subulata_312364        65.74%    passed     95.36%
+  44  Alloteuthis_subulata_312365        65.67%    passed     95.45%
+  45  Alloteuthis_subulata_312366        63.25%    passed     99.15%
+  46  Alloteuthis_subulata_FEA1          63.88%    passed     69.91%
+  47  BO6                                61.87%    passed     96.56%
+  48  BO7                                62.21%    passed     97.90%
+  49  DUM032                             60.76%    passed     84.74%
+  50  Doryteuthis_gahi_FEA1              61.80%    passed     74.77%
+  51  Doryteuthis_opalescens_2001_MB_1   10.87%    failed      2.73%
+  52  Doryteuthis_opalescens_FEAa        74.26%    passed     77.62%
+  53  Doryteuthis_pealeii_FEA1           68.86%    passed     99.75%
+  54  Doryteuthis_pleii_FEA1             68.65%    passed     94.63%
+  55  Loligo_bleekeri_CG                 12.04%    failed      1.80%
+  56  Loligo_forbesii_FEA                63.18%    passed     85.32%
+  57  Loligo_formosana_Lind              64.15%    passed     88.23%
+  58  Loligo_reynaudii_FEA               71.49%    passed     94.56%
+  59  Loligo_vulgaris_FEA                70.17%    passed     76.91%
+  60  Loliolus_beka_LB_1                 63.18%    passed     81.40%
+  61  Loliolus_beka_LB_10                63.18%    passed     76.02%
+  62  Loliolus_beka_LB_12                63.18%    passed     85.99%
+  63  Loliolus_beka_LB_2                 63.25%    passed     96.48%
+  64  Loliolus_beka_LB_3                 63.11%    passed     95.64%
+  65  Loliolus_beka_LB_4                 63.18%    passed     76.02%
+  66  Loliolus_japonica_FEA              71.21%    passed     75.21%
+  67  Loliolus_japonica_LJ_1             64.71%    passed     87.01%
+  68  Loliolus_sp__JMS_2004_Strug        63.53%    passed     93.01%
+  69  Loliolus_uyii_LU_1                 63.32%    passed     82.94%
+  70  Loliolus_uyii_LU_2                 63.32%    passed     82.94%
+  71  Lolliguncula_brevis_FEA            73.63%    passed     55.06%
+  72  Lolliguncula_diomedeae_Lind        62.70%    passed     95.76%
+  73  Photololigo_sp__JMS_2004           63.88%    passed     96.80%
+  74  RAJ040_01                          60.90%    passed     84.00%
+  75  RAJ040_02                          61.18%    passed     98.43%
+  76  RAJ040_03                          60.83%    passed     89.95%
+  77  RAJ040_04                          60.76%    passed     90.16%
+  78  RAJ040_05                          61.45%    passed     97.75%
+  79  RAJ040_06                          61.31%    passed     98.09%
+  80  RAJ040_08                          61.52%    passed     97.44%
+  81  RAJ040_09                          61.31%    passed     97.08%
+  82  RAJ040_11                          61.45%    passed     97.25%
+  83  RAJ040_12                          61.52%    passed     97.43%
+  84  RAJ040_13                          61.52%    passed     94.44%
+  85  RAJ040_19                          61.59%    passed     97.16%
+  86  SUM001_01                          61.38%    passed     97.72%
+  87  SUM001_03                          61.52%    passed     96.42%
+  88  SUM001_08                          61.31%    passed     98.30%
+  89  SUM001_13                          61.52%    passed     94.22%
+  90  SUM001_15                          61.38%    passed     96.38%
+  91  SUM001_16                          61.59%    passed     98.44%
+  92  SUM001_17                          61.31%    passed     97.23%
+  93  SUM001_20                          61.38%    passed     97.72%
+  94  Sepioteuthis_australis_FEAb        76.26%    passed     83.80%
+  95  Sepioteuthis_lessoniana_1          66.78%    passed     93.60%
+  96  Sepioteuthis_lessoniana_NC_007     12.94%    failed      4.85%
+  97  Sepioteuthis_lessoniana_SL_1       66.78%    passed     93.60%
+  98  Sepioteuthis_lessoniana_SL_2       65.26%    passed     86.54%
+  99  Sepioteuthis_lessoniana_SL_3       66.78%    passed     93.60%
+ 100  Sepioteuthis_lessoniana_ha13       66.99%    passed     78.63%
+ 101  Sepioteuthis_lessoniana_ha16       67.06%    passed     72.97%
+ 102  Sepioteuthis_lessoniana_ha17       67.06%    passed     64.95%
+ 103  Sepioteuthis_lessoniana_ha18       67.06%    passed     76.58%
+ 104  Sepioteuthis_lessoniana_ha19       67.06%    passed     69.60%
+ 105  Sepioteuthis_lessoniana_ha20       67.06%    passed     69.60%
+ 106  Sepioteuthis_lessoniana_ha21       66.99%    passed     71.86%
+ 107  Sepioteuthis_lessoniana_ha22       66.99%    passed     71.86%
+ 108  Sepioteuthis_lessoniana_ha23       66.99%    passed     78.26%
+ 109  Sepioteuthis_lessoniana_ha24       66.99%    passed     71.86%
+ 110  Sepioteuthis_lessoniana_ha25       66.99%    passed     71.86%
+ 111  Sepioteuthis_lessoniana_ha26       66.99%    passed     78.26%
+ 112  Sepioteuthis_lessoniana_ha27       66.99%    passed     71.86%
+ 113  Sepioteuthis_lessoniana_ha28       66.99%    passed     78.26%
+ 114  Sepioteuthis_lessoniana_ha29       66.99%    passed     71.86%
+ 115  Sepioteuthis_lessoniana_ha4        66.92%    passed     65.58%
+ 116  Sepioteuthis_lessoniana_ha5        66.92%    passed     73.98%
+ 117  Sepioteuthis_lessoniana_ha6        66.92%    passed     73.98%
+ 118  Sepioteuthis_lessoniana_ha7        66.92%    passed     69.77%
+ 119  Sepioteuthis_lessoniana_ha8        66.92%    passed     62.45%
+ 120  Sepioteuthis_sepioidea_FEA         69.13%    passed     50.99%
+ 121  Uroteuthis_chinensis_FEA           68.51%    passed     78.50%
+ 122  Uroteuthis_chinensis_HKA           65.26%    passed     83.59%
+ 123  Uroteuthis_chinensis_HKB           65.26%    passed     83.59%
+ 124  Uroteuthis_chinensis_UC_1          63.60%    passed     91.37%
+ 125  Uroteuthis_chinensis_Xia02         65.26%    passed     86.94%
+ 126  Uroteuthis_duvauceli_1M            64.78%    passed     91.18%
+ 127  Uroteuthis_duvauceli_CC6           64.91%    passed     89.45%
+ 128  Uroteuthis_duvauceli_FEAa          65.54%    passed     83.29%
+ 129  Uroteuthis_duvauceli_UD_1          62.98%    passed     93.39%
+ 130  Uroteuthis_duvauceli_UD_2          63.11%    passed     95.03%
+ 131  Uroteuthis_duvauceli_UD_4          63.11%    passed     96.62%
+ 132  Uroteuthis_duvauceli_UD_7          63.11%    passed     94.13%
+ 133  Uroteuthis_duvauceli_UD_8          63.11%    passed     92.64%
+ 134  Uroteuthis_eduiis_A_Pankey          9.76%    failed      0.18%
+ 135  Uroteuthis_eduiis_B_Pankey         17.02%    failed      0.07%
+ 136  Uroteuthis_eduiis_C_Pankey         12.25%    failed      0.68%
+ 137  Uroteuthis_edulis_D_Pankey          9.83%    failed      1.12%
+ 138  Uroteuthis_edulis_Jp01             64.84%    passed     91.38%
+ 139  Uroteuthis_edulis_NC_017746         6.99%    failed      0.21%
+ 140  Uroteuthis_edulis_budo_CG           6.99%    failed      0.21%
+ 141  Uroteuthis_edulis_kensaki_CG        9.83%    failed      0.37%
+ 142  Uroteuthis_etheridgei_FEA          67.54%    passed     84.03%
+ 143  Uroteuthis_noctiluca_FEA           73.22%    passed     48.07%
+ 144  Uroteuthis_noctiluca_Nish          63.46%    passed     26.14%
+ 145  Uroteuthis_sibogae_US_3            64.43%    passed     81.39%
+WARNING: 135 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                              60.86%  10 sequences failed composition chi2 test (p-value<5%; df=3)
+Initializing heterotachy mixture branch lengths
+NOTE: Loliolus_uyii_LU_2 is identical to Loliolus_uyii_LU_1 but kept for subsequent analysis
+NOTE: Sepioteuthis_lessoniana_SL_1 is identical to Sepioteuthis_lessoniana_1 but kept for subsequent analysis
+NOTE: Sepioteuthis_lessoniana_ha20 is identical to Sepioteuthis_lessoniana_ha19 but kept for subsequent analysis
+NOTE: Sepioteuthis_lessoniana_ha22 is identical to Sepioteuthis_lessoniana_ha21 but kept for subsequent analysis
+NOTE: Sepioteuthis_lessoniana_ha26 is identical to Sepioteuthis_lessoniana_ha23 but kept for subsequent analysis
+NOTE: Uroteuthis_chinensis_HKB is identical to Uroteuthis_chinensis_HKA but kept for subsequent analysis
+NOTE: Uroteuthis_edulis_budo_CG is identical to Uroteuthis_edulis_NC_017746 but kept for subsequent analysis
+NOTE: 5 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Sepioteuthis_lessoniana_SL_3 (identical to Sepioteuthis_lessoniana_1) is ignored but added at the end
+NOTE: Sepioteuthis_lessoniana_ha24 (identical to Sepioteuthis_lessoniana_ha21) is ignored but added at the end
+NOTE: Sepioteuthis_lessoniana_ha25 (identical to Sepioteuthis_lessoniana_ha21) is ignored but added at the end
+NOTE: Sepioteuthis_lessoniana_ha27 (identical to Sepioteuthis_lessoniana_ha21) is ignored but added at the end
+NOTE: Sepioteuthis_lessoniana_ha29 (identical to Sepioteuthis_lessoniana_ha21) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to g19.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+
+NOTE: Using mixture model with unlinked GTR parameters
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial LogL: -7801.154, Site proportion and rates:  (0.650,0.106) (0.350,2.660)
+relative_treelen: 0.189 4.738
+1. Initial log-likelihood: -7801.154
+2. Current log-likelihood: -6982.651
+3. Current log-likelihood: -6958.014
+4. Current log-likelihood: -6956.617
+Optimal log-likelihood: -6956.525
+Rate parameters:  A-C: 2.937  A-G: 3.152  A-T: 1.160  C-G: 3.071  C-T: 9.323  G-T: 1.000
+Base frequencies:   A: 0.303  C: 0.127  G: 0.184  T: 0.386
+Rate parameters:  A-C: 0.808  A-G: 3.148  A-T: 0.664  C-G: 1.215  C-T: 6.663  G-T: 1.000
+Base frequencies:   A: 0.431  C: 0.031  G: 0.165  T: 0.372
+Heterotachy weights:      0.663 0.337
+Heterotachy tree lengths: 0.388 8.427
+Parameters optimization took 4 rounds (3.446 sec)
+Computing ML distances based on estimated model parameters... 0.136 sec
+Computing BIONJ tree...
+0.042 seconds
+Log-likelihood of BIONJ tree: -6986.019
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.315 second
+Computing log-likelihood of 98 initial trees ... 4.212 seconds
+Current best score: -6928.469
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -6921.822
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -6921.644
+BETTER TREE FOUND at iteration 5: -6921.644
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -6921.369
+BETTER TREE FOUND at iteration 9: -6921.366
